@@ -3,7 +3,7 @@ import autogen
 config_list = [
     {
         'model': 'gpt-3.5-turbo-16k',
-        'api_key': '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'
+        'api_key': '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'
     }
 ]
 
@@ -29,7 +29,7 @@ user_proxy = autogen.UserProxyAgent(
     system_message="""Reply TERMINATE if the task has been solved to full satisfaction. Otherwise, reply CONTINUE, or provide a reason why the task is not solved yet."""
 )
 
-task = """Write a static webpage that is professional looking and it will be used for a life coaching business and save the code to file"""
+task = """Write a python script to create a basic calculator and shwo the code"""
 
 user_proxy.initiate_chat(
     assistant,
