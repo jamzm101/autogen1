@@ -29,7 +29,7 @@ user_proxy = autogen.UserProxyAgent(
     system_message="""Reply TERMINATE if the task has been solved to full satisfaction. Otherwise, reply CONTINUE, or provide a reason why the task is not solved yet."""
 )
 
-task = """Write a python script to create a basic calculator and shwo the code"""
+task = """make a snake game using tkinter and python and add colors to snake and make the food blink"""
 
 user_proxy.initiate_chat(
     assistant,
